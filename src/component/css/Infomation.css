@@ -1,0 +1,44 @@
+.info-box{
+    border: black solid 2px;
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.info-side{
+    display: flex;
+}
+
+.first{
+    width: 100px;
+    border: solid gray 1px;
+    
+}
+
+.last{
+    width: 100px;
+    border: solid gray 1px;
+}
+
+.symptom{
+    width: 200px;
+    border: solid gray 1px;
+}
+
+.but-side{
+    display: flex;
+    
+}
+
+.R{
+    width: 130px;
+    border: solid gray 1px;
+    
+}
+
+.type{
+    width: 100px;
+    border: solid gray 1px;
+}
+

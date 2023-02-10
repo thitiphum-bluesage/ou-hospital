@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .links {
+    display: flex;
+  }
+  
+  .each-link {
+    margin-right: 20px;
+  }
+  
+  .nav-but {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .nav-but:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  

@@ -1,15 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import { Routes,Route} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import Read from './component/Read';
+import Add from './component/Add';
+import GetCollection from './component/GetCollection';
+
+import App from './App';
+import Navbar from './component/Navbar';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Navbar/>
+    <App/>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

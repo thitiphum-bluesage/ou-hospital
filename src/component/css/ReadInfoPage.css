@@ -1,0 +1,37 @@
+.info-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .info-page div:first-child {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .info-page div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .info-page div:last-child div {
+    margin-bottom: 20px;
+  }
+  
+  .info-page div:last-child div:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-page div:last-child div:last-child p {
+    white-space: pre-wrap;
+  }
+  

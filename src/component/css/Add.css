@@ -1,0 +1,43 @@
+.add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  .add-form input, .add-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-form input[type="text"] {
+    width: 400px;
+  }
+  
+  .add-form textarea {
+    width: 400px;
+    height: 200px;
+    resize: none;
+  }
+  
+  .add-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .add-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
