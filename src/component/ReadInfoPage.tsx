@@ -57,8 +57,9 @@ function ReadInfoPage() {
                 <div><p>firstname : {info.first}</p></div>
                 <div><p>lastname : {info.last}</p></div>
                 <div><p>symptom : {info.symptom}</p></div>
-                <div><p>deep infomation : {info.deepInfo}</p></div>
                 <div><p>Type : {info.type}</p></div>
+                <div><p>deep infomation : {info.deepInfo}</p></div>
+                
             </div>
             <div>
                 <button onClick={onClickEdit}>Edit</button>

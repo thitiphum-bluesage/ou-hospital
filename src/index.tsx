@@ -6,7 +6,6 @@ import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import Read from './component/Read';
 import Add from './component/Add';
-import GetCollection from './component/GetCollection';
 
 import App from './App';
 import Navbar from './component/Navbar';
